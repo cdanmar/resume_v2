@@ -1,19 +1,31 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
+# New York Times
+- company: New York Times
   position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+  duration: August, 2021 &mdash; Present
+  summary: Founding member of the NYT's reliability Engineering team. Helped harden NYT systems to better handle breaking news events and election coverage traffic.	<ul class="resume-item-list"><li>Created NYTLT, a Kubernetes backed self service load generation platform backed by Graphana's k6. NYTLT is capable of running multiple tests while generating over 900,000 RPS with ease. Used by teams to test the reliability of their services or to simulate company wide election traffic conditions</li><li>Created an automated ETL pipeline to migrate Datastore Databases to DynamoDB, capable of processing 1TB worth of data in 30 minutes</li><li>Advocated for tracing and helped in implementing APM for automated service discovery</li><li>Introduced Chaos Experiments as a means to test various scenarios in Kubernetes clusters such as resource contention, bursting, or container crashes</li></ul>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+# Cohesion
+- company: Cohesion
+  position: Senior Software Engineer
+  duration:  December, 2020 &mdash; August, 2021
+  summary: Senior Member of the Platform Team, responsible for the health and provisioning of Azure services and edge networks <ul class="resume-item-list"><li>Created security standards around access to accommodate a distributed, global workforce and hybrid networks</li><li>Assisted with preparations and remediation to be SOC2 compliant</li><li>Managed the full networking stack, from BACNET Layer 2 broadcasts to Layer 7 RESTful APIs</li><li>Created controls around production deployments to maintain complicance to SOC 2 standards</li><li>Created dynamic firewall rules based on Just-In-Time access and a Zero-Trust philosophy</li><li>Managed App Services, Windows and Linux VMs, Kubernetes Clusters, and on premise networking appliances</li><li>Performed security scans against Cohesion's network and created security alerts around anomalous activity</li></ul>
 
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+# BreakFree Solutions
+- company: BreakFree Solutions
+  position: Senior Solutions Engineer
+  duration:   July, 2019  &mdash; November, 2020
+  summary: Consultant Advising on Cloud Native Solutions and Security to Enterprise Customers <ul class="resume-item-list"><li>Created several workshops to help clients get familiar with Cloud Native patterns such as Build Automation and the Container Lifecycle</li><li>Created Terraform Templates to stand up AKS that are now implemented into BreakFree's Rapid Deploy Library</li><li>Built Kubernetes and it's deployment pipelines from scratch during multiple engagements</li><li>Leveraged Azure DevOps for build automation</li><li>Provided guidance for container security throughout the whole container lifecycle, from local development to production</li><li>Helped teams optimize, automate, and troubleshoot their existing Kubernetes Clusters</li><li>Mentored teammates on Container, Kubernetes, and IaC concepts</li></ul>
+
+# Enova
+- company: Enova
+  position: Senior Deployment Engineer
+  duration:   October, 2018  &mdash; July, 2019
+  summary: Deployment Engineer focused on spearheading Cloud Native tools and patterns while supporting existing infrastructure <ul class="resume-item-list"><li>Spearheaded some of Enova's first container deployment projects, with a focus on establishing best practices that moved teams away from manual processes, server drift, and technical debt</li><li>Established new pipelines for container builds and promotion</li><li>Worked closely with other teams to establish new security practices, including migrating secrets to Vault and establishing container security standards</li></ul>
+
+# Solstice
+- company: Solstice
+  position: DevOps Engineer
+  duration:   March, 2018  &mdash; July, 2018
+  summary: DevOps Engineer primarily in charge of managing Kuberenetes clusters via Infrastructure as Code and automated deployments <ul class="resume-item-list"><li>Implemented infrastructure as code using Terraform</li><li>Audited image security, and implemented automated container vulnerability scanning</li><li>Managed deployment pipeline via Jenkins and Spinnaker</li><li>Deployed and managed Kubernetes Clusters in both production and development environments in Google Kubernetes Engine for a large enterprise customer</li></ul>

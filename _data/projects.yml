@@ -1,16 +1,10 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
+# NYTLT
+- project: NYTLT
+  role: Creator, Maintainer
+  duration: 2021 &mdash; Present
   # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+  description: NYTLT is a platform designed to simulate various production traffic scenarios within the New York Times. Backed by Kubernetes and Graphana's k6, NYTLT is capable of generating more than 1 million requests per second on demand. The architecture spins from zero and is capable of scaling up to maximum capacity within 5 minutes. Tests are self service; written, launched, and managed by developers themselves. Several libraries are written and maintained by the Reliability Engineering team to assist with Authentication, Storage, Access, Observability, and Compute needed to run tests to completion.
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.

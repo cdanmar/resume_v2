@@ -1,7 +1,7 @@
 # Jobs
 # New York Times
 - company: New York Times
-  position: VP of Global Communications
+  position: Senior Software Engineer
   duration: August, 2021 &mdash; Present
   summary: Founding member of the NYT's reliability Engineering team. Helped harden NYT systems to better handle breaking news events and election coverage traffic.	<ul class="resume-item-list"><li>Created NYTLT, a Kubernetes backed self service load generation platform backed by Graphana's k6. NYTLT is capable of running multiple tests while generating over 900,000 RPS with ease. Used by teams to test the reliability of their services or to simulate company wide election traffic conditions</li><li>Created an automated ETL pipeline to migrate Datastore Databases to DynamoDB, capable of processing 1TB worth of data in 30 minutes</li><li>Advocated for tracing and helped in implementing APM for automated service discovery</li><li>Introduced Chaos Experiments as a means to test various scenarios in Kubernetes clusters such as resource contention, bursting, or container crashes</li></ul>
 
